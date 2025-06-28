@@ -1,0 +1,211 @@
+<!--Kevin-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VerdeVital - Tienda Natural</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">🌿 VerdeVital</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <ul class="navbar">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="administracion.html">Administración</a></li>
+        </ul>
+        <div class="header-btn">
+            <button id="toggleDarkMode" class="darkmode-btn animated-glow" title="Cambiar tema">
+                <span class="icon-wrapper">
+                    <i class='bx bx-moon'></i>
+                </span>
+            </button>
+            <a href="carrito.html" class="nav-icon"><i class='bx bx-cart'></i></a>
+            <a id="btnLogin" href="autenticacion.html" class="sign-in">Iniciar sesión</a>
+            <button id="cerrarSesion" class="sign-in">Cerrar sesión</button>
+        </div>
+    </header>
+
+    <section class="home animated-fadein" id="home">
+        <div class="text">
+            <h1><span>Productos</span> naturales <br>para tu bienestar</h1>
+            <p>Descubre la mejor selección de productos naturales para una vida saludable</p>
+            <a href="productos.html" class="btn-primary">Ver productos</a>
+        </div>
+
+        <div class="form-container">
+            <img src="assets/img/VerdeVital.jpeg" alt="Logo VerdeVital" class="hero-logo-form">
+        </div>
+    </section>
+
+    <section class="services animated-fadein" id="productos">
+        <div class="heading">
+            <span>Nuestros productos</span>
+            <h1>Productos más vendidos</h1>
+        </div>
+        <div class="services-container" id="productosMasVendidos">
+            <!-- Producto 1: Palta -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="backend/assets/img/palta.jpg" alt="Palta chilena">
+                </div>
+                <h3>Palta Hass Premium</h3>
+                <p>Producto más vendido</p>
+                <div class="descripcion">La mejor palta de chile, verde y blanda</div>
+            </div>
+
+            <!-- Producto 2: Almendras -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="backend/assets/img/almedrasSnack.jpg" alt="Pack de almendras">
+                </div>
+                <h3>Almendras Premium</h3>
+                <p>Producto más vendido</p>
+                <div class="descripcion">Snack de 100g de almendras premium directamente de pakistan</div>
+            </div>
+
+            <!-- Producto 3: Té verde -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="backend/img/te.jpg" alt="Té verde">
+                </div>
+                <h3>Té Verde Indio</h3>
+                <p>Producto más vendido</p>
+                <div class="descripcion">Té verde indio premium de cultivo ecológico</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about animated-fadein" id="about">
+        <div class="heading">
+            <span>Sobre nosotros</span>
+            <h1>Tu salud es nuestra prioridad</h1>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src=https://canalsalud.imq.es/hubfs/imq-blog/alimentos-fuente-proteina-animal-vegetal.jpg alt="Productos naturales">
+            </div>
+            <div class="about-text">
+                <span>VerdeVital</span>
+                <p>En VerdeVital nos dedicamos a brindarte los mejores productos naturales directamente de la tierra a tu mesa. Nuestra selección premium garantiza calidad y frescura en cada compra.</p>
+                <p>Trabajamos directamente con agricultores locales y proveedores éticos para ofrecerte alimentos orgánicos, libres de pesticidas y procesamientos artificiales. Tu bienestar es nuestra mayor recompensa.</p>
+                <a href="productos.html" class="btn">Ver catálogo</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews animated-fadein" id="reviews">
+        <div class="heading">
+            <span>Testimonios</span>
+            <h1>Lo que dicen nuestros clientes</h1>
+        </div>
+        <div class="reviews-container">
+            <div class="box">
+                <div class="rev-img">
+                    <img src="https://esdesarrollo.com/wp-content/uploads/2021/08/clientes-satisfechos.png" alt="Cliente satisfecho">
+                </div>
+                <h2>Carlos Palacios</h2>
+                <div class="stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+                <p>Los productos de VerdeVital cambiaron mi alimentación. La calidad es incomparable y el servicio excelente. ¡Mi familia y yo somos clientes fieles!</p>
+            </div>
+
+            <div class="box">
+                <div class="rev-img">
+                    <img src="https://www.hubspot.com/hubfs/media/clientessatisfechos.jpeg" alt="Cliente satisfecho">
+                </div>
+                <h2>Marcelina Nuñez</h2>
+                <div class="stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                </div>
+                <p>Las almendras premium son mi snack favorito. Desde que descubrí VerdeVital, no compro en otro lugar. Entrega rápida y productos frescos.</p>
+            </div>
+
+            <div class="box">
+                <div class="rev-img">
+                    <img src="https://img.freepik.com/foto-gratis/hombre-feliz-pulgares-arriba_1187-3144.jpg" alt="Cliente satisfecho">
+                </div>
+                <h2>The Grefg</h2>
+                <div class="stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                </div>
+                <p>El té verde es espectacular. Noté la diferencia desde el primer sorbo. Ahora recomiendo VerdeVital a todos mis amigos y familiares.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter animated-fadein">
+        <div class="footer-message">
+            <h2>¡Gracias por elegir VerdeVital!</h2>
+            <p>
+                Nos enorgullece acompañarte en tu camino hacia una vida más saludable.<br>
+                Si disfrutaste tu experiencia, comparte nuestra tienda con quienes más quieres.<br>
+                <span class="footer-highlight">VerdeVital — Naturalmente para ti.</span>
+            </p>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>&#169; <span>VerdeVital</span> Todos los derechos reservados</p>
+        <div class="social">
+            <a href="https://www.facebook.com/download/" target="_blank" rel="noopener"><i class="ri-facebook-fill"></i></a>
+            <a href="https://www.instagram.com/download/" target="_blank" rel="noopener"><i class="ri-instagram-line"></i></a>
+            <a href="https://www.whatsapp.com/download/" target="_blank" rel="noopener"><i class="ri-whatsapp-line"></i></a>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("cerrarSesion").addEventListener("click", () => {
+            localStorage.removeItem("id_usuario");
+            window.location.href = "autenticacion.html";
+        });
+
+        // Dark mode toggle con animación de rotación
+        const toggleBtn = document.getElementById('toggleDarkMode');
+        const body = document.body;
+        toggleBtn.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            const icon = toggleBtn.querySelector('i');
+            icon.classList.add('rotate-anim');
+            setTimeout(() => icon.classList.remove('rotate-anim'), 400);
+            if (body.classList.contains('dark-mode')) {
+                icon.classList.remove('bx-moon');
+                icon.classList.add('bx-sun');
+            } else {
+                icon.classList.remove('bx-sun');
+                icon.classList.add('bx-moon');
+            }
+        });
+
+        // Animación de entrada para secciones
+        document.querySelectorAll('.animated-fadein').forEach((el, i) => {
+            el.style.opacity = 0;
+            el.style.transform = 'translateY(40px)';
+            setTimeout(() => {
+                el.style.transition = 'opacity 1s cubic-bezier(.77,0,.18,1), transform 1s cubic-bezier(.77,0,.18,1)';
+                el.style.opacity = 1;
+                el.style.transform = 'translateY(0)';
+            }, 250 + i * 200);
+        });
+    </script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

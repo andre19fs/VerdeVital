@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administración - VerdeVital</title>
+    <link rel="stylesheet" href="assets/css/administracion.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="admin-header">
+        <h1>Panel de Administración</h1>
+        <div>
+            <a href="index.html" class="btn-volver">Volver al inicio</a>
+            <a href="index.html" class="btn-inicio">Inicio</a>
+        </div>
+    </header>
+    <main>
+        <section class="admin-section">
+            <h2>Agregar Producto</h2>
+            <form id="formAgregar">
+                <input type="text" id="nombre" placeholder="Nombre del producto" required>
+                <input type="text" id="categoria" placeholder="Categoría" required>
+                <input type="text" id="precio_unitario" placeholder="Precio" required min="0">
+                <input type="text" id="Descripcion" placeholder="Descripción" required>
+                <input type="text" id="Imagen" placeholder="URL de la imagen" required>
+                <input type="number" id="stock" placeholder="Cantidad en stock" required min="0">
+                <button type="submit">Agregar</button>
+            </form>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Categoría</th>
+                        <th>Precio</th>
+                        <th>Descripción</th>
+                        <th>Imagen</th>
+                        <th>Stock</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaProductos"></tbody>
+            </table>
+        </section>
+    </main>
+    <script src="assets/js/administracion.js"></script>
+</body>
+</html>
